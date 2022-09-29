@@ -5,14 +5,14 @@ module com.example.simpledraft {
 
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
-    requires validatorfx;
+
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires javafx.media;
+    requires jfxrt;
+    requires rt;
 
     opens com.example.simpledraft to javafx.fxml;
-    exports com.example.simpledraft;
-    exports;
-    opens to
+
 }

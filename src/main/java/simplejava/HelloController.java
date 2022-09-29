@@ -1,4 +1,4 @@
-package com.example.simpledraft;
+package simplejava;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
